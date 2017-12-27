@@ -1,0 +1,303 @@
+body{
+    background-color: #f8f9fa;
+}
+/*------------Mobile------------*/
+@media screen and (min-width: 480px) {
+
+}
+/*------------Tablet------------*/
+@media screen and (min-width: 768px) {
+
+}
+/*------------PC------------*/
+@media screen and (min-width: 960px) {
+/* Navbar stilization */
+    #navbarTogglerDemo03{
+        position: absolute;
+        right: 3%;
+    }
+
+    #navbarTogglerDemo03 button{
+        border: 1px solid orangered;
+        background-color: white;
+        color: orangered;
+    }
+
+    #navbarTogglerDemo03 button:hover{
+        border: 1px solid orangered;
+        background-color: orangered;
+        color: white;
+    }
+
+    #navbarTogglerDemo03 ul li a{
+        color: orangered;
+    }
+
+    #navbarTogglerDemo03 ul li a:hover{
+        color: coral;
+    }
+
+/* Footer */
+    footer{
+        background-color: #1b1e21;
+        color: white;
+        padding-top: 30px;
+        margin-top: 60px;
+    }
+    #footer1 div div img{
+        height: 40px;
+        margin: 5px;
+    }
+    #footer1 div div img:nth-child(1){
+        margin-top: 15px;
+    }
+    #footer1 div:nth-child(2) {
+        margin: auto;
+        text-align: center;
+    }
+    #footer1 div:nth-child(3){
+        margin: auto;
+    }
+    #footer1 div:nth-child(4){
+        margin: auto;
+    }
+
+
+
+
+
+/* Home Page */
+    #banner{
+        background-size: cover;
+        height: 550px;
+        width: 100%;
+    }
+    #bannerBorder div div{
+        background-color: rgba(0, 0, 0, 0.33);
+        position: absolute;
+        top: 51px;
+        height: 550px;
+    }
+    #bannerBorder div div p{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 39%;
+        color: white;
+        padding: 0 40px 0 50px;
+        font-size: 33px;
+    }
+    #bannerBorder div div h3{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 39%;
+    }
+    #bannerBorder div div h3 a:hover {
+        background-color: orangered;
+        color: white;
+    }
+    #bannerBorder div div h3 a:focus{
+        box-shadow: 1px 1px 1px 1px rgb(255,99,71, 0.5);
+    }
+
+
+
+
+
+    #home2 {
+        margin: 40px auto 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    #home2 div div{
+        margin: 10px;
+        border: 1px solid rgb(104,104,104);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 2px 2px 2px rgb(104,104,104, 0.4);
+    }
+    #home2 div div img{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+    #home2 div div h4{
+        display: flex;
+        justify-content: center;
+    }
+    #home2 div div:hover{
+        animation: plusoneone 0.2s forwards;
+    }
+
+
+
+
+    #home3 {
+        height: 250px;
+        background-color: #1d2124;
+        margin-top: 30px;
+    }
+    #home3 div div p{
+        display: block;
+        color: white;
+        font-size: 25px;
+        position: relative;
+        top: 110px;
+    }
+    #home3 div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+
+
+
+    #home4 h2{
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+        font-family: "Arial", Times, serif;
+        margin-top: 60px;
+        color: grey;
+    }
+    #home4 div div a img{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+    }
+    #home4 div div a img:hover {
+        animation: plusoneone 0.2s forwards;
+    }
+    #home4 div div{
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        margin: 40px auto 40px auto;
+    }
+
+
+
+    #home5 div div:nth-child(1){
+        border-top: 1px solid rgba(128,128,128,0.5);
+        margin-top: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #home5 div div:nth-child(1) div:last-child{
+        text-transform: uppercase;
+        margin-top: 40px;
+        font-size: 35px;
+        color: grey;
+    }
+    #home5 div div div:nth-child(2) img:hover{
+        animation: plusoneone 0.2s forwards;
+    }
+/* Contact Form */
+    #contactSection div div:nth-child(1){
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    #contactSection div div:nth-child(3) div{
+        margin-top: 10px;
+    }
+    #contactSection div div:nth-child(3) div p{
+        font-size: 20px;
+    }
+    #contactSection div div:nth-child(3) div p:last-child{
+        font-size: 30px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 20px;
+    }
+/* About Us */
+    #about1 div{
+        width: 250px;
+        height: 400px;
+    }
+    #about1 div div:nth-child(1) {
+        border: 2px solid black;
+        background-color: black;
+        height: 150px;
+        border-radius: 10px 10px 0 0;
+    }
+    #about1 div div:nth-child(2) div{
+        background-color: white;
+    }
+    #about1 div div:nth-child(2) img{
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        position: relative;
+        right: -30%;
+        top: -15%;
+        border: 3px solid white;
+    }
+    #about1 .col-3{
+        display: inline-block;
+        margin: 0 auto;
+    }
+    #about1 div h4{
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        bottom: 90%;
+    }
+    #about1 div h5{
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        bottom: 92%;
+    }
+    #about1 div a img{
+        height: 20px;
+        width: 20px;
+        margin: 0 auto;
+        position: relative;
+        bottom: 90%;
+    }
+    #about1 div a {
+         display: inline-block;
+         position: relative;
+         left: 80px;
+         top: -92%;
+         margin: 5px;
+     }
+    #solutions div{
+        border: 1px solid grey;
+        border-radius: 5px;
+        margin: 10px;
+        padding: 5px;
+    }
+    #solutions div h5{
+        text-align: center;
+    }
+    #about2 div{
+        margin: 0 auto;
+    }
+    #about2 div div div{
+        height: 300px;
+        color: grey;
+    }
+
+
+}
+@keyframes plusoneone {
+    from{
+        transform: scale(1, 1);
+    }
+    to{
+        transform: scale(1.1, 1.1);
+    }
+}
+
+
+
+
+
+
+
